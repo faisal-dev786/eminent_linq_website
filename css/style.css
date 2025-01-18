@@ -437,7 +437,7 @@ a {
 .started-bg {
   background: url(../assets/images/started-bg.png) no-repeat center center /
     cover;
-  height: 50vh;
+  height: 40vh;
 }
 .joinBtn {
   background: white;
@@ -588,7 +588,7 @@ a {
   .started-bg {
     background: url(../assets/images/started-bg.png) no-repeat center center /
       cover;
-    height: 70vh;
+    height: 50vh;
     margin-bottom: 2rem;
   }
   /* get started-section mq end */
