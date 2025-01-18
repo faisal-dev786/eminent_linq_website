@@ -455,6 +455,12 @@ a {
   border: 1px solid white;
 }
 /* get started-section end */
+/* partner section start  */
+.partner-container {
+  padding-top: 5rem;
+  padding-bottom: 3rem;
+}
+/* partner section end */
 /* contact section start */
 .contact-bg {
   background: url("../assets/images/contact-bg.png") 0% 0% no-repeat,
@@ -586,6 +592,12 @@ a {
     margin-bottom: 2rem;
   }
   /* get started-section mq end */
+    /* partner section mq start  */
+    .partner-container {
+      padding-top: 0rem;
+      padding-bottom: 2rem;
+    }
+    /* partner section mq end */
   /* contact section start */
   .contact-bg {
     background: none;

@@ -1,3 +1,21 @@
+// file download
+
+document
+  .getElementById("downloadButton")
+  .addEventListener("click", function () {
+    // Create a link element
+    const link = document.createElement("a");
+
+    // Set the file URL (update 'example.txt' with your file URL or path)
+    link.href = "./assets/docs/form.pdf";
+
+    // Set the file name for download
+    link.download = "Deposit_Authorization_Form.pdf";
+
+    // Trigger the download
+    link.click();
+  });
+
 // Get the button
 let mybutton = document.getElementById("backToTop");
 
